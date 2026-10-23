@@ -1,0 +1,3 @@
+id,feature,area,priority,original,clone,source,notes
+F001,Public booking page,booking,must,yes,no,recon,
+F002,Partner marketplace,network,could,yes,skip,recon,their network not a feature

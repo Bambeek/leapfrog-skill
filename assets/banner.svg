@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 260" width="680" height="260" role="img">
+<title>Leapfrog: rebuild the app, then jump past it</title>
+<style>
+text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif}
+.mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+.bg{fill:#F4F7F2}.ink{fill:#1E2B24}.mut{fill:#5B6B62}.frog{fill:#3FA36B}.belly{fill:#BFE3C9}.eye{fill:#FFFFFF}.pup{fill:#1E2B24}
+.orig{fill:#D9DCD6}.origt{fill:#5B6B62}.mine{fill:#3FA36B}.minet{fill:#FFFFFF}.arc{stroke:#E8A13A}.ground{stroke:#C9CFC6}
+@media (prefers-color-scheme: dark){.bg{fill:#17201B}.ink{fill:#EEF3EE}.mut{fill:#A5B3AA}.orig{fill:#2E3732}.origt{fill:#A5B3AA}.ground{stroke:#34403A}}
+</style>
+<rect class="bg" x="0" y="0" width="680" height="260" rx="16"/>
+<text class="ink" x="40" y="92" font-size="44" font-weight="600">Leapfrog</text>
+<text class="mut" x="40" y="124" font-size="16">Rebuild the app.</text>
+<text class="mut" x="40" y="146" font-size="16">Then jump past it.</text>
+<text class="mut mono" x="40" y="206" font-size="12">scout · build · verify · ship</text>
+<line class="ground" x1="300" y1="222" x2="650" y2="222" stroke-width="2"/>
+<rect class="orig" x="380" y="160" width="100" height="62" rx="6"/>
+<text class="origt" x="430" y="196" font-size="12" text-anchor="middle">original</text>
+<rect class="mine" x="540" y="128" width="96" height="94" rx="6"/>
+<text class="minet" x="588" y="180" font-size="12" text-anchor="middle">your app</text>
+<path class="arc" d="M330 222 Q 450 10 588 124" fill="none" stroke-width="2.5" stroke-dasharray="6 7" stroke-linecap="round"/>
+<g transform="translate(452 70) rotate(18)">
+<path class="frog" d="M-10 14 L-34 30 L-22 32 Z"/>
+<path class="frog" d="M10 14 L34 30 L22 32 Z"/>
+<ellipse class="frog" cx="0" cy="0" rx="30" ry="20"/>
+<ellipse class="belly" cx="0" cy="7" rx="18" ry="10"/>
+<circle class="frog" cx="-13" cy="-17" r="10"/>
+<circle class="frog" cx="13" cy="-17" r="10"/>
+<circle class="eye" cx="-13" cy="-18" r="6"/>
+<circle class="eye" cx="13" cy="-18" r="6"/>
+<circle class="pup" cx="-11" cy="-18" r="3"/>
+<circle class="pup" cx="15" cy="-18" r="3"/>
+<path d="M-8 -2 Q0 4 8 -2" fill="none" stroke="#1E2B24" stroke-width="2" stroke-linecap="round"/>
+<path class="frog" d="M-24 8 L-44 -4 L-40 6 Z"/>
+<path class="frog" d="M24 8 L44 -4 L40 6 Z"/>
+</g>
+</svg>

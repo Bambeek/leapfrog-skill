@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 310" width="680" height="310" role="img">
+<title>Token savings: typical clone pack vs Leapfrog</title>
+<style>
+text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif}
+.bg{fill:#F4F7F2}.t{fill:#1E2B24}.s{fill:#5B6B62}.old{fill:#B4B2A9}.new{fill:#1D9E75}
+@media (prefers-color-scheme: dark){.bg{fill:#17201B}.t{fill:#EEF3EE}.s{fill:#A5B3AA}.old{fill:#5F5E5A}}
+</style>
+<rect class="bg" x="0" y="0" width="680" height="310" rx="16"/>
+<rect class="old" x="40" y="30" width="12" height="12" rx="2"/>
+<text class="s" x="58" y="40" font-size="12">typical clone pack</text>
+<rect class="new" x="190" y="30" width="12" height="12" rx="2"/>
+<text class="s" x="208" y="40" font-size="12">Leapfrog</text>
+<text class="t" x="40" y="84" font-size="14" font-weight="600">Always loaded descriptions</text>
+<rect class="old" x="40" y="94" width="480" height="14" rx="3"/>
+<text class="s" x="528" y="105" font-size="12">5,400 chars</text>
+<rect class="new" x="40" y="112" width="83" height="14" rx="3"/>
+<text class="s" x="131" y="123" font-size="12">932 chars, −83%</text>
+<text class="t" x="40" y="160" font-size="14" font-weight="600">Skill text</text>
+<rect class="old" x="40" y="170" width="480" height="14" rx="3"/>
+<text class="s" x="528" y="181" font-size="12">48 KB</text>
+<rect class="new" x="40" y="188" width="176" height="14" rx="3"/>
+<text class="s" x="224" y="199" font-size="12">17.6 KB, −63%</text>
+<text class="t" x="40" y="236" font-size="14" font-weight="600">Review mining (estimate)</text>
+<rect class="old" x="40" y="246" width="480" height="14" rx="3"/>
+<text class="s" x="528" y="257" font-size="12">~100k tokens</text>
+<rect class="new" x="40" y="264" width="10" height="14" rx="3"/>
+<text class="s" x="58" y="275" font-size="12">~2k tokens, −98%</text>
+</svg>

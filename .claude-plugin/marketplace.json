@@ -1,0 +1,15 @@
+{
+  "name": "leapfrog-skill",
+  "owner": {
+    "name": "Bambeek",
+    "url": "https://github.com/Bambeek"
+  },
+  "plugins": [
+    {
+      "name": "leapfrog-skill",
+      "source": "./",
+      "description": "Rebuild an app and jump past it with what its users already asked for.",
+      "version": "1.0.0"
+    }
+  ]
+}

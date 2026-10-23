@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 240" width="680" height="240" role="img">
+<title>Leapfrog pipeline: scout, build, verify, ship</title>
+<defs><marker id="a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M2 1L8 5L2 9" fill="none" stroke="context-stroke" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></marker></defs>
+<style>
+text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif}
+.mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+.bg{fill:#F4F7F2}.t{fill:#1E2B24}.s{fill:#5B6B62}
+.key{fill:#E1F5EE;stroke:#0F6E56}.keyt{fill:#085041}.keys{fill:#0F6E56}
+.mid{fill:#FFFFFF;stroke:#B4B2A9}.midt{fill:#2C2C2A}.mids{fill:#5F5E5A}
+.ln{stroke:#888780}
+@media (prefers-color-scheme: dark){.bg{fill:#17201B}.t{fill:#EEF3EE}.s{fill:#A5B3AA}
+.key{fill:#085041;stroke:#5DCAA5}.keyt{fill:#E1F5EE}.keys{fill:#9FE1CB}
+.mid{fill:#222B26;stroke:#5F5E5A}.midt{fill:#EEF3EE}.mids{fill:#B4B2A9}.ln{stroke:#888780}}
+</style>
+<rect class="bg" x="0" y="0" width="680" height="240" rx="16"/>
+<path d="M115 100 Q 340 14 565 100" fill="none" stroke="#EF9F27" stroke-width="1.5" stroke-dasharray="5 6" marker-end="url(#a)"/>
+<text class="s" x="340" y="48" font-size="12" text-anchor="middle">user wishes become your leaps</text>
+<rect class="key" x="50" y="104" width="130" height="56" rx="8" stroke-width="0.75"/>
+<text class="keyt" x="115" y="127" font-size="14" font-weight="600" text-anchor="middle">Scout</text>
+<text class="keys" x="115" y="147" font-size="12" text-anchor="middle">Map + mine wishes</text>
+<rect class="mid" x="200" y="104" width="130" height="56" rx="8" stroke-width="0.75"/>
+<text class="midt" x="265" y="127" font-size="14" font-weight="600" text-anchor="middle">Build</text>
+<text class="mids" x="265" y="147" font-size="12" text-anchor="middle">Schema, tokens, screens</text>
+<rect class="mid" x="350" y="104" width="130" height="56" rx="8" stroke-width="0.75"/>
+<text class="midt" x="415" y="127" font-size="14" font-weight="600" text-anchor="middle">Verify</text>
+<text class="mids" x="415" y="147" font-size="12" text-anchor="middle">Tests, parity, diff</text>
+<rect class="key" x="500" y="104" width="130" height="56" rx="8" stroke-width="0.75"/>
+<text class="keyt" x="565" y="127" font-size="14" font-weight="600" text-anchor="middle">Ship</text>
+<text class="keys" x="565" y="147" font-size="12" text-anchor="middle">Rebrand, launch, live</text>
+<line class="ln" x1="180" y1="132" x2="198" y2="132" stroke-width="1.5" marker-end="url(#a)"/>
+<line class="ln" x1="330" y1="132" x2="348" y2="132" stroke-width="1.5" marker-end="url(#a)"/>
+<line class="ln" x1="480" y1="132" x2="498" y2="132" stroke-width="1.5" marker-end="url(#a)"/>
+<text class="s mono" x="115" y="186" font-size="12" text-anchor="middle">wishes.md</text>
+<text class="s mono" x="265" y="186" font-size="12" text-anchor="middle">schema.sql</text>
+<text class="s mono" x="415" y="186" font-size="12" text-anchor="middle">parity.md</text>
+<text class="s mono" x="565" y="186" font-size="12" text-anchor="middle">live URL</text>
+<text class="s" x="340" y="218" font-size="12" text-anchor="middle">state.json carries progress between sessions</text>
+</svg>

@@ -1,0 +1,14 @@
+{
+  "name": "leapfrog-skill",
+  "description": "Four Claude skills that rebuild an app and jump past it: map it, mine what its users already asked for, build, verify, ship as your own.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Bambeek",
+    "url": "https://github.com/Bambeek"
+  },
+  "homepage": "https://github.com/Bambeek/leapfrog-skill",
+  "repository": "https://github.com/Bambeek/leapfrog-skill",
+  "license": "MIT",
+  "keywords": ["claude-code", "claude-skills", "app-rebuild", "feature-requests", "product", "indie-hacker"],
+  "skills": "./"
+}

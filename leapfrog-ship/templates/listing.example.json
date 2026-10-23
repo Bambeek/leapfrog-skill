@@ -1,0 +1,14 @@
+{
+  "apple": {
+    "name": "Slotbird: Booking Links",
+    "subtitle": "Flat price for small teams",
+    "promotional_text": "Text reminders and a time zone check on every booking, with no per-seat pricing.",
+    "keywords": "scheduling,calendar,appointment,meeting,availability,reminder,sms,team,schedule,planner",
+    "description": "Share a link, people pick a time, it lands in your calendar.\n\nBuilt for small teams: one flat price, text reminders, and a time zone confirmation so nobody shows up an hour early."
+  },
+  "play": {
+    "title": "Slotbird: Booking Links",
+    "short_description": "Booking links with text reminders and one flat price for your team.",
+    "full_description": "Share a link, people pick a time, it lands in your calendar.\n\nBuilt for small teams: one flat price, text reminders, and a time zone confirmation."
+  }
+}

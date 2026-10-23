@@ -1,0 +1,46 @@
+{
+  "_note": "Regexes are case-insensitive. Edit themes for the app's category; keep keywords lowercase stems.",
+  "kinds": {
+    "wish": [
+      "\\bi wish\\b", "\\bwish (it|there|they|you|this)\\b", "\\bplease (add|make|let|allow|support|bring|fix|give)\\b",
+      "\\bwould (love|like|be (nice|great|awesome|helpful|amazing|useful))\\b", "\\bwould (happily )?pay\\b",
+      "\\bif only\\b", "\\bmissing\\b", "\\black(s|ing)?\\b", "\\bno way to\\b", "\\b(can't|cannot|can not|unable to|not able to)\\b",
+      "\\bwhy (can't|doesn't|isn't|is there no|no)\\b", "\\bneeds? (a|an|to be able|the ability|better|more)\\b",
+      "\\bfeature request\\b", "\\bit would help\\b", "\\bshould (have|support|let|allow|be able)\\b",
+      "\\bstill (no|doesn't|does not|can't|cannot|lacks)\\b", "\\bhoping (for|they|to see)\\b", "\\bany plans? (to|for)\\b",
+      "\\bwhen will\\b", "\\b(doesn't|does not|don't|do not) (support|have|offer|allow|let)\\b", "\\bno support for\\b",
+      "\\bthe only thing\\b", "\\bonly (downside|complaint|issue|problem|gripe)\\b", "\\bwant(ed)? (a|an|to be able|the option)\\b",
+      "\\b(add|bring) back\\b"
+    ],
+    "workaround": [
+      "\\bwork ?around\\b", "\\bi (have|had|need) to (export|copy|use|manually|switch|paste|re-?enter|keep)\\b", "\\bmanually\\b",
+      "\\b(zapier|make\\.com|ifttt|n8n|spreadsheet|excel|google sheets|a script|python script|chrome extension|browser extension|bookmarklet)\\b",
+      "\\bhack(ed|y)?\\b", "\\bduct tape\\b", "\\bseparate (app|tool)\\b"
+    ],
+    "churn": [
+      "\\bswitch(ed|ing) (to|from|over)\\b", "\\bmov(ed|ing) (to|from|over)\\b", "\\bleft for\\b", "\\bcancel+(ed|ing)? (my|our|the)\\b",
+      "\\bmigrat(ed|ing) (to|from|away)\\b", "\\breplaced (it |them )?with\\b", "\\balternatives?\\b", "\\bgoing back to\\b",
+      "\\bended up (using|with|going)\\b", "\\bunsubscribed\\b", "\\bdeal ?breaker\\b"
+    ]
+  },
+  "themes": {
+    "pricing and billing": ["price", "pricing", "expensive", "per seat", "seat", "subscription", "billing", "refund", "plan", "tier", "cost", "charge"],
+    "integrations": ["integrat", "zapier", "slack", "google calendar", "outlook", "notion", "hubspot", "salesforce", "webhook", "sync with"],
+    "api": ["api", "developer", "sdk", "endpoint"],
+    "mobile app": ["mobile", "android", "iphone", "ipad", "ios app", "phone"],
+    "offline": ["offline", "no internet", "without internet"],
+    "import and export": ["export", "import", "csv", "backup", "download my data", "pdf"],
+    "notifications and reminders": ["notification", "reminder", "remind", "alert", "sms", "text message", "push"],
+    "search and filters": ["search", "filter", "sort by", "sorting"],
+    "speed and reliability": ["slow", "lag", "crash", "bug", "freez", "load", "performance", "downtime"],
+    "teams and sharing": ["team", "share", "sharing", "collaborat", "multiple users", "invite", "workspace"],
+    "permissions and roles": ["permission", "role", "admin", "access control", "read only"],
+    "customization": ["custom", "customiz", "template", "branding", "theme", "white label", "layout"],
+    "reports and analytics": ["report", "analytic", "dashboard", "stats", "insight", "chart"],
+    "dark mode": ["dark mode", "dark theme"],
+    "time zones and calendar": ["time zone", "timezone", "calendar", "recurring", "schedule"],
+    "keyboard and shortcuts": ["shortcut", "keyboard", "hotkey"],
+    "support": ["support team", "customer service", "no response", "ticket"],
+    "privacy and data": ["privacy", "gdpr", "my data", "tracking", "self-host", "self host"]
+  }
+}

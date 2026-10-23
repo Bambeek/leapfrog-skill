@@ -1,0 +1,7 @@
+{
+  "name": "Your App",
+  "avoid": ["Original App", "Original Company"],
+  "domains": ["original.example"],
+  "colors": ["#0069ff"],
+  "allow": ["docs/competitor-notes.md"]
+}
